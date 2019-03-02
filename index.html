@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+<!--   
+
+ ______   __  __       ______  __  __   ______   __   __   ______       ______   __   ______  ______   __   ______    
+/\  == \ /\ \_\ \     /\__  _\/\ \_\ \ /\  __ \ /\ "-.\ \ /\  __ \     /\  ___\ /\ \ /\  == \/\  ___\ /\ \ /\  ___\   
+\ \  __< \ \____ \    \/_/\ \/\ \  __ \\ \  __ \\ \ \-.  \\ \ \/\ \    \ \___  \\ \ \\ \  _-/\ \___  \\ \ \\ \___  \  
+ \ \_____\\/\_____\      \ \_\ \ \_\ \_\\ \_\ \_\\ \_\\"\_\\ \_____\    \/\_____\\ \_\\ \_\   \/\_____\\ \_\\/\_____\ 
+  \/_____/ \/_____/       \/_/  \/_/\/_/ \/_/\/_/ \/_/ \/_/ \/_____/     \/_____/ \/_/ \/_/    \/_____/ \/_/ \/_____/ 
+
+-->
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"> 
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="icon" href="Ico/Icon.png" type="image/png">
+    <title>Thano Sipsis Photography</title>
+    <meta name="description" content="Hi i'm Thano Sipsis, and this is where you can find my photography. For design work please visit my site www.thanosipsis.com">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91559841-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-91559841-2');
+
+    </script>
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="grid">
+            
+            <header><h1><a href="index.html">Photography / Thano Sipsis 📷</a></h1></header>
+            
+            <nav>
+                <ul id="nav"><h3>
+                <li><a id="active" href="index.html">Portfolio</a></li>
+                <li><a href="event-photography.html">Event Photography</a></li>
+                <li><a href="https://thanosipsis.com" target="_blank">Design</a></li>
+                <li><a href="about.html">About</a></li>
+                </h3></ul>
+            </nav>
+            
+            <section class="gallery">
+                <article>
+                    <a href="portfolio-people.html">
+                    <img class="article-img" src="Images/Thumbnails/people-thumbnail2.jpg" alt="People" >
+                    <h4 class="article-title">People</h4>
+                    </a>
+                </article>
+            
+                <article>
+                    <a href="portfolio-architecture.html">
+                    <img class="article-img" src="Images/Thumbnails/architecture-thumbnail.jpg" alt="Architecture" >
+                    <h4 class="article-title">Architecture</h4>
+                    </a>
+                </article>
+            
+                <article>
+                    <a href="portfolio-abstract.html">
+                    <img class="article-img" src="Images/Thumbnails/abstract-thumbnail.jpg" alt="Abstract" >
+                    <h4 class="article-title">Abstract</h4>
+                    </a>
+                </article>
+            
+                <article>
+                    <a href="portfolio-nature.html">
+                    <img class="article-img" src="Images/Thumbnails/nature-thumbnail.jpg" alt="Nature" >
+                    <h4 class="article-title">Nature</h4>
+                    </a>
+                </article>
+                
+                <article>
+                    <a href="portfolio-travel.html">
+                    <img class="article-img" src="Images/Thumbnails/travel-thumbnail2.jpg" alt="Travel" >
+                    <h4 class="article-title">Travel</h4>
+                    </a>
+                </article>
+                
+                
+                <footer>
+                     Copyright © Athanasios Sipsis 2018
+                </footer>
+            </section>
+            
+            
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script>
+        if (document.documentElement.clientWidth <= 800) {
+            window.sr = ScrollReveal({
+                reset: false
+            });
+            sr.reveal('article', {
+                mobile: true,
+                duration: 800,
+                opacity: 0.4,
+                scale: 0.9,
+                viewFactor: 0.6,
+            });
+        }
+    </script>
+    
+</body>
+</html>
